@@ -99,7 +99,7 @@ const CountdownHero = () => {
               data-ani="slideinup"
               data-ani-delay="0.2s"
             >
-              পিকনিক
+              পিকনিক ও সাংস্কৃতিক অনুষ্ঠান
             </h1>
             <h1
               className="hero-title"
@@ -115,7 +115,7 @@ const CountdownHero = () => {
               data-ani-delay="0.6s"
             >
               <span>
-                <i className="fas fa-circle"></i>ঈদের তৃতীয় দিন, ০৭ জুন, ২০২৫
+                <i className="fas fa-circle"></i>ঈদের তৃতীয় দিন, ১০ জুন, ২০২৫
                 {"(সম্ভাব্য)"}
               </span>{" "}
               {/* <span>
