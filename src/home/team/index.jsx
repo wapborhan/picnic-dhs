@@ -49,6 +49,22 @@ const teamData = [
     facebook: "https://www.facebook.com/borhaninfos",
     call: "01620557840",
   },
+  {
+    id: 7,
+    image:
+      "https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-1/455191101_122101964576468222_8509145463135562660_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=109&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGrNQqwOxdDPpiPV-cSuydRJTXFOdcGFbElNcU51wYVsRx7M1ZurHpfppyg2AxCQs4hpza4UXaO4A4V2BU_yhLC&_nc_ohc=gfdn0Rw7WtEQ7kNvwFGHuWI&_nc_oc=AdmCo3xfUvfhtmyZ9xcPgE5Uh4K6k5f-iSB1htipa4hQpSvyY8EdZ8Qkx4I6SsKSGIw&_nc_zt=24&_nc_ht=scontent.fjsr8-1.fna&_nc_gid=59PpF0qdMXFEe5ZkoJDbBw&oh=00_AfIZ6lrHVO4EeNglOKztPjz7mRVumO8hWPqUA414Mfl6BA&oe=6831E3CF",
+    name: "MD Shakib",
+    facebook: "https://www.facebook.com/mdistiakahemmed.shakib",
+    call: "01762200109",
+  },
+  {
+    id: 8,
+    image:
+      "https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-1/480785659_1089288439634573_926328519350886916_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeE5MEF_DNb11H7V9vwkLRhNM9VhSvwtqUwz1WFK_C2pTA7n261x2AE2Zyv1RYYO0GtOQ8N8DmEKfuJjKsZEMxzY&_nc_ohc=T2BEhWOqu38Q7kNvwFAApVA&_nc_oc=AdkuDe0xTohlS1N_w4jceNuYdO_tJYtBvjYM0TyiCnhT5PoCeJ6DO9SyYtCJCak4GhI&_nc_zt=24&_nc_ht=scontent.fjsr8-1.fna&_nc_gid=ExFUQuTriAR9xeKaboXyHQ&oh=00_AfJ1X2Tmv9lfbiV9ifGj_8XMSbqfG1Bp-Y-GRHNOSgLncA&oe=6831FD8B",
+    name: "MD Biddut",
+    facebook: "https://www.facebook.com/biddut.malitha.9#",
+    call: "01",
+  },
 ];
 
 const Team = () => {

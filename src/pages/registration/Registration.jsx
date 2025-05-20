@@ -10,9 +10,19 @@ const Registration = () => {
         textAlign: "center",
         fontSize: "50px",
         color: "#000",
+        padding: "30px 0",
       }}
     >
-      এটির কি প্রয়োজন আছে?
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSc1OznY6BocMjs2iNMKbQTf1pFEnfVPrjdRQ5MXm6qzRmBe1g/viewform?embedded=true"
+        width="640"
+        height="100%"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+      >
+        Loading…
+      </iframe>
     </div>
   );
 };

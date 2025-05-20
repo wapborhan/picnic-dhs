@@ -5,6 +5,7 @@ import WhyJoin from "./why-join";
 import Team from "./team";
 import Pricing from "./pricing/Pricing";
 import EventDetails from "./event-details/EventDetails";
+import Event from "./event/Event";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <Banner />
       <About />
       <WhyJoin />
+      <Event />
       <Pricing />
       <EventDetails />
       <Team />
