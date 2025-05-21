@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 const HeroBG = "../../assets/img/bg/hero_bg_1_1.jpg";
 const title_shape = "../../assets/img/shape/title_shape.png";
 const Curved_B = "../../assets/img/shape/curved-shape-bottom.png";
@@ -118,23 +119,23 @@ const CountdownHero = () => {
                 <i className="fas fa-circle"></i>ঈদের তৃতীয় দিন, ১০ জুন, ২০২৫
                 {"(সম্ভাব্য)"}
               </span>{" "}
-              {/* <span>
+              <span>
                 <i className="fas fa-circle"></i> ধরমপুর মাধ্যমিক বিদ্যালয়
-              </span> */}
+              </span>
             </div>
 
-            {/* <div
+            <div
               className="btn-group"
               data-ani="slideinup"
               data-ani-delay="0.8s"
             >
-              <a href="#" className="vs-btn">
+              <Link to="/registration" className="vs-btn">
                 রেজিস্ট্রেশন করুন
-              </a>{" "}
-              <a href="#" className="vs-btn style5">
+              </Link>{" "}
+              <Link to="/about" className="vs-btn style5">
                 বিস্তারিত জানুন
-              </a>
-            </div> */}
+              </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -15662,3 +15662,19 @@ span.select2-selection.select2-selection--single:focus {
     font-size: 14px;
   }
 }
+
+
+
+.user .vs-btn {
+  padding: 12px 25px;
+  min-width: 130px;
+  background-color: transparent;
+  background-image: none;
+  color: var(--theme-color);
+  border: 1px solid var(--theme-color);
+}
+.user .vs-btn:hover {
+  background-color: var(--theme-color);
+  color: var(--white-color);
+  border-color: var(--theme-color);
+}

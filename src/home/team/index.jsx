@@ -23,7 +23,7 @@ const teamData = [
       "https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-1/461541885_4121655094768495_9059278725653415507_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=110&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeH8vxpNR0tZNaPfSivqN_j1iXI2wNvJBzaJcjbA28kHNgnTqIgXXhKCdBfDEZADa0NA4NqylfugFoW7LR8xQMND&_nc_ohc=vsRA-s6kYAsQ7kNvwEaF-r1&_nc_oc=AdmS7f8TR9rtOLz2BFy84D4o7JLCiG1al9OVH8Yd_eLqxcjjCW400g7Z8G5sJvzdBaM&_nc_zt=24&_nc_ht=scontent.fjsr8-1.fna&_nc_gid=ZIR1Xbp_l3xawv0VPuVbDg&oh=00_AfKyhvOOszh9aOHERV9h8CQ0l971Hmz_Pz8AeKzSl9m5qg&oe=68312112",
     name: "Md Robin",
     facebook: "https://www.facebook.com/robin.rj.779",
-    call: "",
+    call: "01766369931",
   },
   {
     id: 4,
@@ -36,10 +36,10 @@ const teamData = [
   {
     id: 5,
     image:
-      "https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-1/457742268_1993194094448656_6206837871141685045_n.jpg?stp=c0.0.940.940a_dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeEewSpeshKPFcT-FoiL4-et7AnSNv0Y4t_sCdI2_Rji32UM-UHmoysFnKmWpkqa57lOgO2JL3HHR4PMiNU2Rc4w&_nc_ohc=4sqUbjJietQQ7kNvwEIckVr&_nc_oc=Adl-Xfrz48BEZ6uLav9gfHWI4c39N45Ah4BBek4o9dZdBx_BCh39YWhnrhXHclRkmfI&_nc_zt=24&_nc_ht=scontent.fjsr8-1.fna&_nc_gid=JhzwnQrahZdm50IOjtm9iQ&oh=00_AfJrXJS7v98aJlP4uvUW0yyFdxJuAc5nsCcYdWbkAKwQhw&oe=683120C5",
-    name: "Md Imran ",
-    facebook: "https://www.facebook.com/imran.nazir.88228",
-    call: "01790285589",
+      "https://scontent.fzyl2-2.fna.fbcdn.net/v/t39.30808-1/472596951_3906316609638398_5036733929660321453_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=103&ccb=1-7&_nc_sid=1d2534&_nc_eui2=AeE7SGxeR18VpLuyCl35nCJ6RqLp2x-2NLJGounbH7Y0shCoGh9LJcQXg2EPd7okokKejFVyAmMtBLlJ5cem_YGL&_nc_ohc=K7Zn9hxFWSIQ7kNvwHaZAlP&_nc_oc=AdkZCnis5JwWaqUYIeD7FEcC07GNvflJ4y3K1H4QyoRRWwTh6Sugpe4YIQwxcmxlLzE&_nc_zt=24&_nc_ht=scontent.fzyl2-2.fna&_nc_gid=-952VYSLLVrlcHG-UX4qPw&oh=00_AfIwruipl8y343kusoBeAh1R551uB73r_XbW48msK8SV3A&oe=68333D36",
+    name: "Md Marfat",
+    facebook: "https://www.facebook.com/Marfat.fm",
+    call: "01736396765",
   },
   {
     id: 6,
@@ -50,6 +50,15 @@ const teamData = [
     call: "01620557840",
   },
   {
+    id: 8,
+    image:
+      "https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-1/480785659_1089288439634573_926328519350886916_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeE5MEF_DNb11H7V9vwkLRhNM9VhSvwtqUwz1WFK_C2pTA7n261x2AE2Zyv1RYYO0GtOQ8N8DmEKfuJjKsZEMxzY&_nc_ohc=T2BEhWOqu38Q7kNvwFAApVA&_nc_oc=AdkuDe0xTohlS1N_w4jceNuYdO_tJYtBvjYM0TyiCnhT5PoCeJ6DO9SyYtCJCak4GhI&_nc_zt=24&_nc_ht=scontent.fjsr8-1.fna&_nc_gid=ExFUQuTriAR9xeKaboXyHQ&oh=00_AfJ1X2Tmv9lfbiV9ifGj_8XMSbqfG1Bp-Y-GRHNOSgLncA&oe=6831FD8B",
+    name: "MD Biddut",
+    facebook: "https://www.facebook.com/biddut.malitha.9#",
+    call: "01671106092",
+  },
+
+  {
     id: 7,
     image:
       "https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-1/455191101_122101964576468222_8509145463135562660_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=109&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeGrNQqwOxdDPpiPV-cSuydRJTXFOdcGFbElNcU51wYVsRx7M1ZurHpfppyg2AxCQs4hpza4UXaO4A4V2BU_yhLC&_nc_ohc=gfdn0Rw7WtEQ7kNvwFGHuWI&_nc_oc=AdmCo3xfUvfhtmyZ9xcPgE5Uh4K6k5f-iSB1htipa4hQpSvyY8EdZ8Qkx4I6SsKSGIw&_nc_zt=24&_nc_ht=scontent.fjsr8-1.fna&_nc_gid=59PpF0qdMXFEe5ZkoJDbBw&oh=00_AfIZ6lrHVO4EeNglOKztPjz7mRVumO8hWPqUA414Mfl6BA&oe=6831E3CF",
@@ -58,12 +67,12 @@ const teamData = [
     call: "01762200109",
   },
   {
-    id: 8,
+    id: 5,
     image:
-      "https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-1/480785659_1089288439634573_926328519350886916_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeE5MEF_DNb11H7V9vwkLRhNM9VhSvwtqUwz1WFK_C2pTA7n261x2AE2Zyv1RYYO0GtOQ8N8DmEKfuJjKsZEMxzY&_nc_ohc=T2BEhWOqu38Q7kNvwFAApVA&_nc_oc=AdkuDe0xTohlS1N_w4jceNuYdO_tJYtBvjYM0TyiCnhT5PoCeJ6DO9SyYtCJCak4GhI&_nc_zt=24&_nc_ht=scontent.fjsr8-1.fna&_nc_gid=ExFUQuTriAR9xeKaboXyHQ&oh=00_AfJ1X2Tmv9lfbiV9ifGj_8XMSbqfG1Bp-Y-GRHNOSgLncA&oe=6831FD8B",
-    name: "MD Biddut",
-    facebook: "https://www.facebook.com/biddut.malitha.9#",
-    call: "01",
+      "https://scontent.fjsr8-1.fna.fbcdn.net/v/t39.30808-1/457742268_1993194094448656_6206837871141685045_n.jpg?stp=c0.0.940.940a_dst-jpg_s200x200_tt6&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeEewSpeshKPFcT-FoiL4-et7AnSNv0Y4t_sCdI2_Rji32UM-UHmoysFnKmWpkqa57lOgO2JL3HHR4PMiNU2Rc4w&_nc_ohc=4sqUbjJietQQ7kNvwEIckVr&_nc_oc=Adl-Xfrz48BEZ6uLav9gfHWI4c39N45Ah4BBek4o9dZdBx_BCh39YWhnrhXHclRkmfI&_nc_zt=24&_nc_ht=scontent.fjsr8-1.fna&_nc_gid=JhzwnQrahZdm50IOjtm9iQ&oh=00_AfJrXJS7v98aJlP4uvUW0yyFdxJuAc5nsCcYdWbkAKwQhw&oe=683120C5",
+    name: "Md Imran ",
+    facebook: "https://www.facebook.com/imran.nazir.88228",
+    call: "01790285589",
   },
 ];
 
