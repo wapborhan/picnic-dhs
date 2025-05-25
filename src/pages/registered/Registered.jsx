@@ -1,24 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-const demoUser = {
-  Timestamp: "2025-05-21T08:39:37.000Z",
-  নাম: "Test",
-  "পিতার নাম": "Test father",
-  মোবাইল: "01354",
-  "স্থায়ী ঠিকানা": "njbjb",
-  "ব্লাড গ্রুপ": "A+",
-  "বৈবাহিক অবস্তা": "বিবাহিত",
-  "বিবাহিত হলে বাচ্চার সংখ্যা": 5,
-  "এসএসসি সাল / রানিং শিক্ষার্থী 0 লিখবেন": 2025,
-  "বর্তমান পেশা": "চাকুরীজীবী",
-  "প্রতিষ্ঠান এর নাম": "dnjkbjk",
-  "অস্থায়ী ঠিকানা": "2dm;",
-  "রেজিস্ট্রেশন ফি": 254,
-  "টাকা প্রদান এর মাধ্যম": "নগদ",
-  "ফি আদায় কারির নাম অথবা মোবাইল নাম্বার": "s,mnlkn",
-};
-
 const Registered = () => {
   const [users, setUsers] = useState([]);
 
@@ -36,20 +18,27 @@ const Registered = () => {
       })
       .then((res) => {
         const data = res?.data;
-        const mainData = [demoUser, ...data];
-        setUsers(mainData);
+        setUsers(data);
         console.log("Fetched data:", data?.data); // 👈 your actual sheet data here
       })
       .catch((error) => {
         console.error("Error fetching data:", error);
       });
-  }, []);
+  }, [url]);
+  function formatDateToDDMMYYYY(isoString) {
+    let date = new Date(isoString);
+    let day = String(date.getDate()).padStart(2, "0");
+    let month = String(date.getMonth() + 1).padStart(2, "0");
+    let year = date.getFullYear();
+    return `${day}-${month}-${year}`;
+  }
 
   return (
     <div className="container">
       <table className="user">
         <thead>
           <tr>
+            <th>নিবন্ধন সময়</th>
             <th>নাম</th>
             <th>পিতার নাম</th>
             <th>স্থায়ী ঠিকানা</th>
@@ -64,12 +53,16 @@ const Registered = () => {
 
               return (
                 <tr>
+                  <td>{formatDateToDDMMYYYY(user?.Timestamp)}</td>
                   <td>{user?.নাম}</td>
                   <td>{user?.["পিতার নাম"]}</td>
                   <td>{user?.["স্থায়ী ঠিকানা"]}</td>
                   <td>{user?.["ব্লাড গ্রুপ"]}</td>
                   <td>
-                    <Link className="vs-btn" to={`/registered/${user?.নাম}`}>
+                    <Link
+                      className="vs-btn"
+                      to={`/registered/${user?.["নিবন্ধন নাম্বার (ফর্মের সিরিয়াল)"]}`}
+                    >
                       বিস্তারিত
                     </Link>
                   </td>

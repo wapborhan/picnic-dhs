@@ -16,7 +16,7 @@ const HomePage = () => {
       <Event />
       <Pricing />
       <EventDetails />
-      <Team />
+      {/* <Team /> */}
     </Fragment>
   );
 };

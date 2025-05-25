@@ -25,7 +25,7 @@ export const router = createBrowserRouter([
         element: <Registered />,
       },
       {
-        path: "registered/:name",
+        path: "registered/:slno",
         element: <RegUserDetails />,
       },
       {

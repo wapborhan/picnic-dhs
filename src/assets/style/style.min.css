@@ -5474,7 +5474,7 @@ a.text-white:hover {
   }
   .footer-layout2 .copyright {
     text-align: center;
-    padding: 40px 0 25px 0;
+    padding: 10px 0;
   }
   .footer-top {
     padding-top: 90px;
@@ -11082,8 +11082,13 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
 }
 .team-details .team-content-card {
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around;
+  gap: 50px;
+  /* position: absolute; */
+  /* bottom: 0; */
 }
 .team-details .team-img {
   position: relative;
@@ -11093,7 +11098,7 @@ span.select2-selection.select2-selection--single:focus {
 .team-content-card {
   --border-gap: 30px;
   border-radius: 15px;
-  padding: 55px 80px 55px 280px;
+  padding: 25px;
   margin: var(--border-gap);
   position: relative;
 }
@@ -11127,7 +11132,7 @@ span.select2-selection.select2-selection--single:focus {
   color: var(--body-color);
   font-family: var(--body-font);
   font-size: 18px;
-  margin-bottom: 8px;
+  margin-bottom: 20px;
 }
 .team-content-card .info-list li:last-child {
   margin-bottom: 0;
@@ -11157,7 +11162,7 @@ span.select2-selection.select2-selection--single:focus {
     margin-bottom: 50px;
   }
   .team-content-card {
-    padding: 55px 30px 55px 300px;
+    padding: 20px;
   }
   .team-content-card .team-name {
     font-size: 34px;
@@ -11174,6 +11179,7 @@ span.select2-selection.select2-selection--single:focus {
     position: relative;
     bottom: unset;
     z-index: 3;
+    flex-direction: column;
   }
   .team-content-card {
     padding: 35px 40px;
@@ -15391,7 +15397,7 @@ span.select2-selection.select2-selection--single:focus {
   flex: 1;
   border-right: 1px solid #888;
 }
-.shedule-table .table-column:first-child{
+.shedule-table .table-column:first-child {
   border-left: 1px solid #888;
 }
 .shedule-table .table-column:last-of-type {
@@ -15456,10 +15462,12 @@ span.select2-selection.select2-selection--single:focus {
 }
 @media (max-width: 767px) {
   .shedule-table {
-    min-width: 760px;
+    min-width: 600px;
   }
   .shedule-table-area {
     overflow-x: scroll;
+  }.shedule-table .table-column{
+    flex: auto;
   }
 }
 .brand-box {
@@ -15663,8 +15671,6 @@ span.select2-selection.select2-selection--single:focus {
   }
 }
 
-
-
 .user .vs-btn {
   padding: 12px 25px;
   min-width: 130px;
@@ -15677,4 +15683,43 @@ span.select2-selection.select2-selection--single:focus {
   background-color: var(--theme-color);
   color: var(--white-color);
   border-color: var(--theme-color);
+}
+
+.sticky-wrapper {
+    box-shadow: 1px 1px 15px -5px #00000047;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+thead {
+  background-color: #f5f5f5;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  table {
+    min-width: unset;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 }

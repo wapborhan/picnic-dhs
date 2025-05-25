@@ -59,7 +59,7 @@ const Event = () => {
                       চামচে লেবু নিয়ে দৌড়াতে হবে-লেবু পড়লে শুরু থেকে শুরু।{" "}
                     </div>
                   </div>
-                  <div class="table-column">
+                  {/* <div class="table-column">
                     <div class="th">ইচ্ছুক?</div>
                     <div class="td">
                       <button class="vs-btn">আমি খেলবো</button>
@@ -82,7 +82,7 @@ const Event = () => {
                     <div class="td">
                       <button class="vs-btn">আমি খেলবো</button>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div

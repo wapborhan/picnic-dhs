@@ -14,8 +14,7 @@ const Pricing = () => {
       <div className="container text-center z-index-common">
         <div className="event-info text-white mb-30">
           <span>
-            <i className="fal fa-calendar-alt"></i>ঈদের তৃতীয় দিন, ০৭ জুন, ২০২৫
-            {" (সম্ভাব্য)"}
+            <i className="fal fa-calendar-alt"></i>ঈদের তৃতীয় দিন
           </span>
           <span>
             <i className="fal fa-map-marker-alt"></i>ধরমপুর মাধ্যমিক বিদ্যালয়
@@ -31,7 +30,7 @@ const Pricing = () => {
           শিক্ষার্থী।
         </h4>
         <h4 style={{ color: "#fff" }}>
-          রেজিস্ট্রেশন ফিঃ ৩০০+টাকা। সর্বনিম্ন ৩০০. তার বেশি যে যা পারে।
+          রেজিস্ট্রেশন ফিঃ সর্বনিম্ন ৩৫০ টাকা। তার বেশি যে যা পারে।
         </h4>
         {/* 
         <a href="shop.html" className="vs-btn btn-white">

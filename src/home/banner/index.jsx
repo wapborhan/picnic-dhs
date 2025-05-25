@@ -100,15 +100,15 @@ const CountdownHero = () => {
               data-ani="slideinup"
               data-ani-delay="0.2s"
             >
-              পিকনিক ও সাংস্কৃতিক অনুষ্ঠান
+              পুনর্মিলন ও সাংস্কৃতিক অনুষ্ঠান
             </h1>
-            <h1
+            <h4
               className="hero-title"
               data-ani="slideinup"
               data-ani-delay="0.4s"
             >
               ধরমপুর মাধ্যমিক বিদ্যালয়
-            </h1>
+            </h4>
 
             <div
               className="event-info"
@@ -116,8 +116,7 @@ const CountdownHero = () => {
               data-ani-delay="0.6s"
             >
               <span>
-                <i className="fas fa-circle"></i>ঈদের তৃতীয় দিন, ১০ জুন, ২০২৫
-                {"(সম্ভাব্য)"}
+                <i className="fas fa-circle"></i>ঈদের তৃতীয় দিন
               </span>{" "}
               <span>
                 <i className="fas fa-circle"></i> ধরমপুর মাধ্যমিক বিদ্যালয়
