@@ -30,6 +30,9 @@ const RegUserDetails = () => {
     return user?.["নিবন্ধন নাম্বার (ফর্মের সিরিয়াল)"].toString() === slno;
   });
 
+
+  
+
   return (
     <>
       <div
@@ -59,10 +62,10 @@ const RegUserDetails = () => {
                 <div class="team-content-card bg-smoke">
                   <div class="team-img">
                     <img
-                      src={filterduser?.["ছবির লিঙ্ক"]}
+                      src={filterduser?.["ছবির লিঙ্ক"]? filterduser?.["ছবির লিঙ্ক"] : filterduser?.["লিঙ্গ"] === "পুরুষ" ? "/assets/img/avater/male.png": "/assets/img/avater/female.png"}
                       alt="Speaker member"
                       class="img-fluid"
-                      style={{ width: "100%", height: "auto" }}
+                      style={{ width: "250px", height: "auto" }}
                       loading="lazy"
                       decoding="async"
                     />

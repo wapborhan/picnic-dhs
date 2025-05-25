@@ -11,9 +11,11 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.6",
+    "html2canvas": "^1.4.1",
     "react": "^19.1.0",
     "react-countdown-customizable": "^0.1.3",
     "react-dom": "^19.1.0",
+    "react-easy-crop": "^5.4.2",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.0"
   },

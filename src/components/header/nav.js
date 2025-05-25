@@ -14,11 +14,11 @@ const menu = [
     title: "নিবন্ধিত ব্যবহারকারী",
     path: "/registered",
   },
-  {
-    id: 4,
-    title: "ভলেন্টিয়ার",
-    path: "/teams",
-  },
+  // {
+  //   id: 4,
+  //   title: "ভলেন্টিয়ার",
+  //   path: "/teams",
+  // },
 ];
 
 export default menu;

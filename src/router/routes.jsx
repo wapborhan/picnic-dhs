@@ -6,6 +6,8 @@ import About from "../pages/about";
 import Registered from "../pages/registered/Registered";
 import Team from "../home/team";
 import RegUserDetails from "../pages/registered/RegUserDetails";
+import Frame from "../pages/frame/Frame";
+import TicketModal from "../components/TicketModal";
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +33,14 @@ export const router = createBrowserRouter([
       {
         path: "teams",
         element: <Team />,
+      },
+      {
+        path: "frame",
+        element: <Frame />,
+      },
+      {
+        path: "ticket",
+        element: <TicketModal />,
       },
       {
         path: "about",

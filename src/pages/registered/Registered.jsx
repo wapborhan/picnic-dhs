@@ -34,11 +34,12 @@ const Registered = () => {
   }
 
   return (
-    <div className="container">
-      <table className="user">
+    <div className="container"  style={{ width: "100%", padding: "20px" }}>
+      <table className="user ">
         <thead>
           <tr>
             <th>নিবন্ধন সময়</th>
+            <th>নিবন্ধন নাম্বার</th>
             <th>নাম</th>
             <th>পিতার নাম</th>
             <th>স্থায়ী ঠিকানা</th>
@@ -54,6 +55,7 @@ const Registered = () => {
               return (
                 <tr>
                   <td>{formatDateToDDMMYYYY(user?.Timestamp)}</td>
+                  <td>{user?.["নিবন্ধন নাম্বার (ফর্মের সিরিয়াল)"]}</td>
                   <td>{user?.নাম}</td>
                   <td>{user?.["পিতার নাম"]}</td>
                   <td>{user?.["স্থায়ী ঠিকানা"]}</td>
@@ -61,9 +63,12 @@ const Registered = () => {
                   <td>
                     <Link
                       className="vs-btn"
+                      style={{ minWidth: "10px",margin: "0 auto",
+                        textAlign: "center", padding: "10px"
+                       }}
                       to={`/registered/${user?.["নিবন্ধন নাম্বার (ফর্মের সিরিয়াল)"]}`}
                     >
-                      বিস্তারিত
+                      <i class="fa-solid fa-eye" style={{marginRight: "0"}}></i>
                     </Link>
                   </td>
                 </tr>
