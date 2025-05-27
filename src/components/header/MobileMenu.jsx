@@ -11,7 +11,7 @@ const MobileMenu = ({ menuShow, toggleMenu }) => {
         </button>
         <div className="mobile-logo">
           {/* <!-- <img src="assets/img/logo.png" alt="Evona"> --> */}
-          SSC Batch 2012
+          পুনর্মিলনী
         </div>
         <div className="vs-mobile-menu">
           <Nav />

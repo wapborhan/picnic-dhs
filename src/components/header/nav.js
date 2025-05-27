@@ -12,7 +12,7 @@ const menu = [
   {
     id: 3,
     title: "নিবন্ধিত ব্যবহারকারী",
-    path: "/registered",
+    path: "/registers",
   },
   // {
   //   id: 4,

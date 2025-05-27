@@ -8,6 +8,7 @@ import Team from "../home/team";
 import RegUserDetails from "../pages/registered/RegUserDetails";
 import Frame from "../pages/frame/Frame";
 import TicketModal from "../components/TicketModal";
+import DetailsReg from "../pages/registered/DetailsReg";
 
 export const router = createBrowserRouter([
   {
@@ -23,12 +24,12 @@ export const router = createBrowserRouter([
         element: <Registration />,
       },
       {
-        path: "registered",
+        path: "registers",
         element: <Registered />,
       },
       {
         path: "registered/:slno",
-        element: <RegUserDetails />,
+        element: <DetailsReg />,
       },
       {
         path: "teams",
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "test",
+        element: <DetailsReg />,
       },
     ],
   },

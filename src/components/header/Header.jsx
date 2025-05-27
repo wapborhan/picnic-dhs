@@ -55,7 +55,7 @@ const Header = ({ toggleMenu }) => {
               <div className="col-auto">
                 <div className="header-logo">
                   <NavLink to="/">
-                    পিকনিক
+                    পুনর্মিলনী
                     {/* <!-- <img src="assets/img/logo.png"
                                         alt="Evona"> --> */}
                   </NavLink>

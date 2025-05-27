@@ -25,20 +25,25 @@ const Registered = () => {
         console.error("Error fetching data:", error);
       });
   }, [url]);
-  function formatDateToDDMMYYYY(isoString) {
-    let date = new Date(isoString);
-    let day = String(date.getDate()).padStart(2, "0");
-    let month = String(date.getMonth() + 1).padStart(2, "0");
-    let year = date.getFullYear();
-    return `${day}-${month}-${year}`;
-  }
+
+  // function formatDateToDDMMYYYY(isoString) {
+  //   let date = new Date(isoString);
+  //   let day = String(date.getDate()).padStart(2, "0");
+  //   let month = String(date.getMonth() + 1).padStart(2, "0");
+  //   let year = date.getFullYear();
+  //   return `${day}-${month}-${year}`;
+  // }
+
+  const sortedUsers = users.sort(
+  (a, b) => a["নিবন্ধন নাম্বার (ফর্মের সিরিয়াল)"] - b["নিবন্ধন নাম্বার (ফর্মের সিরিয়াল)"]
+);
 
   return (
-    <div className="container"  style={{ width: "100%", padding: "20px" }}>
-      <table className="user ">
+    <div className="container"  style={{ width: "100%", padding: "20px",color: "#000" }}>
+      <table className="user " >
         <thead>
           <tr>
-            <th>নিবন্ধন সময়</th>
+            <th>ক্রঃ</th>
             <th>নিবন্ধন নাম্বার</th>
             <th>নাম</th>
             <th>পিতার নাম</th>
@@ -49,12 +54,12 @@ const Registered = () => {
         </thead>
         <tbody>
           {users.length > 0 ? (
-            users.map((user) => {
+            sortedUsers?.map((user,idx) => {
               console.log(user);
 
               return (
                 <tr>
-                  <td>{formatDateToDDMMYYYY(user?.Timestamp)}</td>
+                  <td>{idx+1}</td>
                   <td>{user?.["নিবন্ধন নাম্বার (ফর্মের সিরিয়াল)"]}</td>
                   <td>{user?.নাম}</td>
                   <td>{user?.["পিতার নাম"]}</td>
