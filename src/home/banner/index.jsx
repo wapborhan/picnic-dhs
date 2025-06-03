@@ -5,7 +5,7 @@ const title_shape = "../../assets/img/shape/title_shape.png";
 const Curved_B = "../../assets/img/shape/curved-shape-bottom.png";
 
 const CountdownHero = () => {
-  const countdownDate = new Date("06/07/2025").getTime();
+  const countdownDate = new Date("06/09/2025").getTime();
   const [timeLeft, setTimeLeft] = useState({
     days: "0",
     hours: "00",
